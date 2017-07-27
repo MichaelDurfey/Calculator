@@ -4,6 +4,7 @@
   "description": "Javascript Calculator",
   "main": "index.html",
   "scripts": {
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,8 +18,8 @@
   },
   "homepage": "https://github.com/MichaelDurfey/Calculator#readme",
   "dependencies": {
-    "bootstrap": "^3.3.7",
     "ejs": "^2.5.6",
-    "express": "^4.15.3"
+    "express": "^4.15.3",
+    "jquery": "^3.2.1"
   }
 }

@@ -3,15 +3,93 @@
 <head>
   <meta charset="UTF-8">
   <title>Calculator</title>
-  <link href ="/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" ></link>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/styles.css">
 </head>
 <body>
-<div class = "container">
-    <div class = "calculatorContainer text-center">
-        <h1>Hello World</h1>
-
-    </div>
+<div class = "container text-center">
+    <div class = "calculatorContainer well">
+      <p class = "header">Electronic Calculator</p>
+      <div class = "display">
+        <p class = "answer">
+          
+        </p>
+        
+        <p class = "current">
+          
+        </p>
+        
+      </div>
+      <!-- Begin Buttons -->
+    <div class = "buttonContainer">
+      <div class = "buttons" style = "margin-top: 15px">
+        <div class = "button" id = "clear" style = "background-color: #A72D45">
+          <p class = "buttonText">AC</p>
+        </div>
+        <div class = "button" id = "clear" style = "background-color: #A72D45">
+          <p class = "buttonText">CE</p>
+        </div>
+        <div class = "button method" id = "divide">
+          <p class = "buttonText">÷</p>
+        </div>
+        <div class = "button method" id = "multiply">
+          <p class = "buttonText">x</p>
+        </div> 
+      </div><!-- End row 1 Buttons -->         
+      <div class = "buttons">
+        <div class = "button value" id = "value" attr = "7">
+          <p class = "buttonText">7</p>
+        </div>
+        <div class = "button value" id = "value" attr ="8">
+          <p class = "buttonText">8</p>
+        </div>  
+        <div class = "button value" id = "value" attr= "9">
+          <p class = "buttonText">9</p>
+        </div>  
+        <div class = "button method" id = "subtract">
+          <p class = "buttonText">-</p>
+        </div> 
+      </div><!-- End row 2 Buttons -->
+      <div class = "buttons">
+        <div class = "button value" id = "value" attr = "4">
+          <p class = "buttonText">4</p>
+        </div>   
+        <div class = "button value" id = "value" attr= "5">
+          <p class = "buttonText">5</p>
+        </div> 
+        <div class = "button value" id = "value" attr= "6">
+          <p class = "buttonText">6</p>
+        </div> 
+        <div class = "button method" id = "add">
+          <p class = "buttonText">+</p>
+        </div>
+      </div><!-- End row 3 Buttons -->
+      <div class = "lastButtonContainer">
+        <div class = "lastButtons">         
+          <div class = "button value" id = "value" attr = "1">
+            <p class = "buttonText">1</p>
+          </div>  
+          <div class = "button value" id = "value" attr = "2">
+            <p class = "buttonText">2</p>
+          </div>  
+          <div class = "button value" id = "value" attr = "3">
+            <p class = "buttonText">3</p>
+          </div>  
+          <div class = "equalsButton" id = "equals">
+            <p class = "buttonText">=</p>
+          </div>
+        </div>  
+        <div class = "button zeroButton value" id = "value" attr = "0">
+          <p class = "buttonText">0</p>
+        </div>
+        <div class = "button decimalButton value" id = "decimal" attr = ".">
+          <p class = "buttonText">.</p>
+        </div>
+    </div> <!-- lastButton Container --> 
+  </div><!--End Button Container-->
+     
 </div> <!-- End Container-fluid -->
-  
+  <script type="text/javascript" src = "https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src = "/index.js"></script>
 </body>
 </html>
