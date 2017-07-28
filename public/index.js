@@ -17,8 +17,7 @@ let calculator = {
     display(this.sum);
   },
   divide: function(val1, val2) {
-    methodValue = val1 / val2;
-    this.sum = this.sum / methodValue;
+    this.sum = val1 / val2;
     display(this.sum);
   },
   clear: function() {
