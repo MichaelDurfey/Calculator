@@ -1,1 +1,1 @@
-<h1>Simple Javascript Calculator</h1>
+<h1>Javascript Calculator</h1>
